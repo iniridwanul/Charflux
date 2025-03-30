@@ -5,7 +5,7 @@ void encrypt(char *password);
 int main() {
     char password[50];
     printf("Password: ");
-    scanf("%s", &password);
+    scanf("%s", password);
     encrypt(password);
     return 0;
 }
